@@ -3,16 +3,20 @@ body{
     padding: 0;
     font-family: Dancing Script;
     background-color: beige;
+    /* width: 100vw; */
+}
+.container{
+    width: 100vw;
 }
 #navbar{
     height: auto;
-    position: sticky;
+    /* position: sticky; */
     background: linear-gradient(to right,#9b5de5,#f15bb5 );
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    width:100vw;
+    width:100%;
 }
 #logo{
     height: 50px;
@@ -141,7 +145,7 @@ body{
      margin-left: auto;
      opacity: 0.4;
 }
-@media screen and (min-width:300px) {
+@media screen and (max-width:300px) {
     #text>h2{
         display: flex;
         align-items: center;
@@ -240,4 +244,74 @@ body{
 }
 .RightHeader>h4{
     color: rgb(75, 74, 74);
+}
+.ImgOfAss{
+    height: 50px;
+}
+.clock{
+    height: 20px;
+}
+.subWork{
+    font-size: 1.2rem;
+}
+
+.MyAssignments{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+    
+    /* width: 100vw; */
+}
+.MyAssBox{
+    width: 30vw;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 30px ;
+    
+}
+.design{
+    height: 20px;
+    border-radius: 30px   30px 0px  0px;
+}
+#AB1{
+
+}
+#AB1>.design{
+    background: linear-gradient(to right,purple,hotpink);
+    
+}
+#AB2>.design{
+     background: linear-gradient(to right,rgb(253, 233, 50),orange);
+}
+#AB3>.design{
+     background: linear-gradient(to right,rgb(117, 202, 238),rgb(42, 144, 233));
+}
+#AB4>.design{
+    background: linear-gradient(to right,rgb(135, 216, 95),rgb(6, 199, 86));
+}
+#AB5>.design{
+     background: linear-gradient(to right,rgb(236, 82, 146),rgb(240, 18, 77));
+}
+#AB6>.design{
+     background: linear-gradient(to right,rgb(36, 116, 91),rgb(4, 97, 72));
+}
+.upper{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.updation{
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.submittion{
+    /* width: 20%; */
+     display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
 }
