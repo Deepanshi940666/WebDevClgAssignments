@@ -262,7 +262,6 @@ body{
     height: auto;
     flex-wrap: wrap;
     gap: 30px 0px;
-    
     /* width: 100vw; */
 }
 .MyAssBox{
@@ -272,16 +271,31 @@ body{
     border-radius: 30px ;
     
 }
+@media screen and (max-width:700px) {
+    .MyAssignments{
+     flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.MyAssBox{
+    width: 70vw;
+}
+.start{
+     width: 5vw; 
+     height: 30px;
+     margin: 10px;
+     border-radius: 30px;
+}
+}
 .design{
     height: 20px;
     border-radius: 30px   30px 0px  0px;
 }
-#AB1{
+/* #AB1{
 
-}
+} */
 #AB1>.design{
-    background: linear-gradient(to right,purple,hotpink);
-    
+    background: linear-gradient(to right,purple,hotpink);   
 }
 #AB2>.design{
      background: linear-gradient(to right,rgb(253, 233, 50),orange);
@@ -290,7 +304,7 @@ body{
      background: linear-gradient(to right,rgb(117, 202, 238),rgb(42, 144, 233));
 }
 #AB4>.design{
-    background: linear-gradient(to right,rgb(135, 216, 95),rgb(6, 199, 86));
+     background: linear-gradient(to right,rgb(135, 216, 95),rgb(6, 199, 86));
 }
 #AB5>.design{
      background: linear-gradient(to right,rgb(236, 82, 146),rgb(240, 18, 77));
@@ -299,19 +313,85 @@ body{
      background: linear-gradient(to right,rgb(36, 116, 91),rgb(4, 97, 72));
 }
 .upper{
-    width: 40%;
+    margin-top: 10px;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
 }
 .updation{
     width: 100%;
-     display: flex;
+    display: flex;
     justify-content: space-between;
-    margin: 0px 10px;
+    margin: 10px 10px;
+    /* margin-top:10px ; */
 }
+
 .submittion{
     /* width: 20%; */
      display: flex;
     justify-content: space-between;
     margin: 0px 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+}
+.YourWork{
+    height: 15px;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    /* margin-top:10px ; */
+    font-size: small;
+    /* align-items: center; */
+}
+#work1,#work3,#work6{  
+    background-color: rgb(79, 163, 232);
+    text-align: center;
+}
+#work2,#work5{
+    background-color: rgb(225, 168, 44);
+    text-align: center;
+}
+#work4{
+    background-color: rgb(26, 155, 12);
+    text-align: center;
+}
+.submittion{
+    display: flex;
+    margin: 10px;
+    gap: 5px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.start{
+     width: 400px;
+     height: 30px;
+     margin: 10px;
+     border-radius: 30px;
+}
+
+#start1{
+     background: linear-gradient(to right,purple,hotpink); 
+}
+#start2{
+     background: linear-gradient(to right,rgb(253, 233, 50),orange);
+}
+#start3{
+     background: linear-gradient(to right,rgb(117, 202, 238),rgb(42, 144, 233)); 
+}
+#start4{
+     background: linear-gradient(to right,rgb(135, 216, 95),rgb(6, 199, 86));
+}
+#start5{
+     background: linear-gradient(to right,rgb(236, 82, 146),rgb(240, 18, 77));
+}
+#start6{
+     background: linear-gradient(to right,rgb(36, 116, 91),rgb(4, 97, 72));
 }
